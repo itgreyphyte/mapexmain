@@ -1,6 +1,7 @@
 import Aiassistant from "@/components/Aiassistant";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import Meta from "@/components/Meta";
 import ScrollContext from "@/components/ScrollContext";
 import "@/styles/globals.css";
 import AOS from 'aos';
@@ -34,9 +35,7 @@ export default function App({ Component, pageProps }) {
   }, []); // Ensure this runs only once
   return <>
     <ScrollContext>
-      <Head>
-        <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon" />
-      </Head>
+      <Meta/>
       <Header />
       <Aiassistant/>
       <Component {...pageProps} />

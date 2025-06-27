@@ -47,7 +47,7 @@ export default function contact() {
                                             <p>8th Floor, Tower-A, Green Boulevard, <br />
                                                 Sector 62, Noida 201301, Uttar Pradesh, INDIA</p>
                                         </div>
-                                        <a className="get_the_loca" target="_blank" href="https://www.google.com/maps/place/Azure+Cloud+Services+Pvt+Ltd/@28.622306,77.3647253,17z/data=!3m2!4b1!5s0x390ce55b2bfce287:0xbe5f49c9403f929f!4m6!3m5!1s0x390ce5d20381e8d9:0x4fce0da6024974a8!8m2!3d28.6223013!4d77.3673002!16s%2Fg%2F11vk7c0c8m?entry=ttu&g_ep=EgoyMDI1MDYxMC4xIKXMDSoASAFQAw%3D%3D"><CiLocationOn />Get the location</a>
+                                        <a className="get_the_loca" target="_blank" href="https://maps.app.goo.gl/JtuVYF8ihnz6W1q99"><CiLocationOn />Get the location</a>
                                     </div>
 
                                 </div>

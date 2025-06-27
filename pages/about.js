@@ -196,7 +196,7 @@ export default function About() {
                                 <Link href='/services'>Services</Link>
                             </div>  
                             <div className="ab_righ_us_de" data-aos="fade-left">
-                                <p>Mapex represents a new era in offering customised GIS Solutions and new-age offerings such as geospatial data engineering, enabling our clients to elevate their strategic planning, operational efficiency, and growth. Mapex blends strategic vision with technological depth to unlock actionable geospatial insights. Our mission is to map the future — connecting people, ideas, and technology to shape a smarter, more sustainable tomorrow.</p>
+                                <p>Mapex represents a new era in offering customised GIS Solutions and new-age offerings such as geospatial data engineering, enabling our clients to elevate their strategic planning, operational efficiency, and growth. At Mapex, we envision a world where innovation, integrity, and impact guide every journey. Our mission is to map the future—connecting people, ideas, and technology to shape a smarter, more sustainable tomorrow.</p>
                                 <p>We bring a pool of proficient experts with rich experience in creating smarter networks, advanced urban areas, and efficient infrastructure. Mapex focuses on accuracy, scalability, and real-time intelligence to positively impact public and private layers through faster and more objective decision-making.</p>
                             </div>
                         </div>

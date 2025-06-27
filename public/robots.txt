@@ -1,0 +1,22 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Disallow admin and api routes
+Disallow: /api/
+Disallow: /admin/
+Disallow: /author/user/feed/
+Disallow: /author/user/
+Disallow: /comments/feed/
+Disallow: /feed/
+Disallow: /sample-page/feed/
+Disallow: /hello-world/feed/
+Disallow: /category/uncategorized/feed/
+Disallow: /category/uncategorized/
+Disallow: /sample-page/feed/
+Disallow: /author/aayushi-agrawal/feed/
+Disallow: /hello-world/
+Disallow: /sample-page/
+
+# Correct sitemap location
+Sitemap: https://naarihospital.in/sitemap.xml
