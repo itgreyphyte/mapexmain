@@ -369,8 +369,6 @@ export default function Aiassistant() {
         speechSynthesis.speak(utterance);
     };
 
-    
-
 
     const stopSpeaking = () => {
         if (speechSynthesis.speaking) {
@@ -668,6 +666,8 @@ export default function Aiassistant() {
                 {!messages.length > 0 && <>
                     <div className="right_chat_bot_ai_model">
                         <Spline scene="/model/ball.splinecode" />
+
+                        <h2>Let’s map out your needs...</h2>
                     </div>
                 </>}
 
@@ -712,9 +712,6 @@ export default function Aiassistant() {
                                     })}
 
 
-
-
-
                                     {/* Live stream bubble */}
                                     {aiResponse && (
                                         <div className="chat-bubble assistant">
@@ -723,11 +720,17 @@ export default function Aiassistant() {
                                     )}
 
                                     {isLoading && !aiResponse && (
-                                        <div className="chat-bubble assistant loading thinking">
-                                            <div className="spinner" />
-                                            <p>Thinking...</p>
+                                        <div className="chat-bubble assistant loading thinking flex gap-1">
+
+                                            <img width={30} src="/img/mapex_ai.png" alt="" />
+                                            <div className="gemini-loader">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </div>
                                         </div>
                                     )}
+
 
                                     <div ref={messagesEndRef} />
                                 </div>
@@ -758,7 +761,7 @@ export default function Aiassistant() {
                                             ? "Requesting microphone permission..."
                                             : isListening
                                                 ? "Listening... Speak now"
-                                                : "Let’s map out your needs, what are you looking for..."
+                                                : "Ask MapexAi..."
                                     }
                                     value={query}
                                     onChange={(e) => setQuery(e.target.value)}

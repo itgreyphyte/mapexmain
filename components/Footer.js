@@ -29,7 +29,7 @@ export default function Footer() {
                                 <p>By submitting you agree to receive our emails. You can unsubscribe anytime.</p>
                             </div>
                             <div className="flex flex-col flex-right">
-                                <img width={450} src="https://mapex.hexagrey.com/img/services/service.png" className="mb-2" alt="" />
+                                <img width={450} src="/img/services/service.png" className="mb-2" alt="" />
                                 <h3><a href="mailto:contact@mapex.ai">contact@mapex.ai</a></h3>
                             </div>
                         </div>

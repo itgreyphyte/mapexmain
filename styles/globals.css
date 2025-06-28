@@ -5405,8 +5405,9 @@ textarea {
 
 .ai_search_box {
   position: absolute;
-  top: 70%;
-  transform: translateY(-50%);
+  /* top: 100%;
+  transform: translateY(-50%); */
+  bottom: 0;
   width: 100%;
   opacity: 0;
   transition: 1s linear;
@@ -5458,6 +5459,40 @@ textarea {
   z-index: 51;
 }
 
+.gemini-loader {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 20px;
+  margin-bottom: 6px;
+}
+
+.gemini-loader span {
+  width: 8px;
+  height: 8px;
+  background: var(--main-color); /* Gemini blue */
+  border-radius: 50%;
+  opacity: 0.3;
+  animation: geminiBounce 1.4s infinite ease-in-out;
+}
+
+.gemini-loader span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.gemini-loader span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes geminiBounce {
+  0%, 80%, 100% {
+    transform: scale(0.8);
+    opacity: 0.3;
+  }
+  40% {
+    transform: scale(1.4);
+    opacity: 1;
+  }
+}
 
 
 /* 
@@ -5663,7 +5698,7 @@ textarea {
   color: #111827;
   line-height: 1.6;
   margin-bottom: 250px;
-  max-height: 70vh;
+  height: 67vh;
   overflow-y: auto;
 }
 
@@ -5706,6 +5741,7 @@ textarea {
 
 .ai_answer_summary_cont li {
   margin-bottom: 0.4em;
+  list-style: disc;
 }
 
 .ai_answer_summary_cont code {
@@ -5758,6 +5794,9 @@ textarea {
 
 
 .right_chat_bot_ai_model {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   width: 60%;
   margin: auto;
   margin-top: 6rem;
@@ -5768,6 +5807,14 @@ textarea {
   height: 100% !important;
 }
 
+.right_chat_bot_ai_model h2{
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.5;
+  background: linear-gradient(to right, var(--main-color), var(--second-color));
+  color: transparent;
+  background-clip: text;
+}
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ CASE STUDIES CSS $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */

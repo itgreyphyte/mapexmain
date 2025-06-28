@@ -88,13 +88,13 @@ export default function casestudies() {
                         <h2>Case Studies</h2>
                     </div>
                     <div className="case_study_cont">
-                        <Link href='/case-studies/caseone' className="case_study" data-aos="fade-up">
+                        <Link href='/case-studies/mapex-west-bengal-land-records' className="case_study" data-aos="fade-up">
                             <div className="case_study_img">
                                 <img src="/case_study/1.jpg" alt="" />
                             </div>
                             <h3>Building the Future of E-Governance: How Mapex Digitized and Geo-Enabled West Bengal’s Land Records</h3>
                         </Link>
-                        <Link href='/case-studies/casetwo' className="case_study" data-aos="fade-up">
+                        <Link href='/case-studies/mapping-for-the-madhya-pradesh-state-forest' className="case_study" data-aos="fade-up">
                             <div className="case_study_img">
                                 <img src="/case_study/case-study-title.jpg" alt="" />
                             </div>
