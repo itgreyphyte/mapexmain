@@ -139,7 +139,7 @@ export default function blog() {
                 <section className="blogs_p_section">
                     <div className="blogs_p_grid">
                         <article className="blogs_p_card">
-                            <Link href='/blogs/blogone'>
+                            <Link href='/blogs/Mapex-appraised-at-CMMI-level-3'>
                                 <div className="blogs_p_card_image">
                                     <img src="/blog/blog-1.jpg" />
                                 </div>
@@ -155,7 +155,7 @@ export default function blog() {
                             </Link>
                         </article>
                         <article className="blogs_p_card">
-                            <Link href='/blogs/blogtwo'>
+                            <Link href='/blogs/Mapping-India’s-Infrastructure-Future-with-GIS'>
                                 <div className="blogs_p_card_image">
                                     <img src="/img/news/mapex_news-3.jpg" />
                                 </div>
