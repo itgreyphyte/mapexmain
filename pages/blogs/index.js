@@ -13,14 +13,14 @@ export default function blog() {
     const featuredBlogs = [
         {
             title: "Mapex Appraised at CMMI Level 3, Reinforcing Its Focus on Scalable Geospatial Solutions",
-            href: "/blogs/blogone",
+            href: "/blogs/Mapex-appraised-at-CMMI-level-3",
             imgSrc: "/blog/blog-1.jpg",
             category: "Achievement",
             excerpt: "New Delhi, India — A key milestone that reflects Mapex's commitment to delivering consistent, process-driven solutions for scalable and sustainable project outcomes."
         },
         {
             title: "Mapping India’s Infrastructure Future with Geospatial Intelligence",
-            href: "/blogs/blogtwo",
+            href: "/blogs/Mapping-India’s-Infrastructure-Future-with-GIS",
             imgSrc: "/img/news/mapex_news-3.jpg",
             category: "Achievement",
             excerpt: "Today, India stands at the brink of an infrastructure revolution. Over the last decade, the nation has made significant strides"

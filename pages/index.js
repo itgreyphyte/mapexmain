@@ -17,25 +17,25 @@ export default function Home() {
       image: "/img/news/mapex_news-1.jpg",
       title: "Mapex Appraised at CMMI Level 3, Reinforcing Its Focus on Scalable Geospatial Solutions",
       desc: "New Delhi, India — A key milestone that reflects Mapex's commitment to delivering consistent, process-driven solutions...",
-      link: "/blogs/blogone"
+      link: "/blogs/Mapex-appraised-at-CMMI-level-3"
     },
     {
       image: "/img/news/mapex_news-3.jpg",
       title: "Mapping India’s Infrastructure Future with Geospatial Intelligence",
       desc: "Today, India stands at the brink of an infrastructure revolution. Over the last decade, the nation has made significant strides...",
-      link: "/blogs/blogtwo"
+      link: "/blogs/Mapping-India’s-Infrastructure-Future-with-GIS"
     },
     {
       image: "/img/news/mapex_news-1.jpg",
       title: "Mapex Appraised at CMMI Level 3, Reinforcing Its Focus on Scalable Geospatial Solutions",
       desc: "New Delhi, India — A key milestone that reflects Mapex's commitment to delivering consistent, process-driven solutions...",
-      link: "/blogs/blogone"
+      link: "/blogs/Mapex-appraised-at-CMMI-level-3"
     },
     {
       image: "/img/news/mapex_news-3.jpg",
       title: "Mapping India’s Infrastructure Future with Geospatial Intelligence",
       desc: "Today, India stands at the brink of an infrastructure revolution. Over the last decade, the nation has made significant strides...",
-      link: "/blogs/blogtwo"
+      link: "/blogs/Mapping-India’s-Infrastructure-Future-with-GIS"
     },
   ];
 

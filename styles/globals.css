@@ -7435,6 +7435,9 @@ textarea {
   .info-item a {
     margin-top: 2rem;
   }
+  .right_chat_bot_ai_model{
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 600px) {
