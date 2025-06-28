@@ -20,7 +20,7 @@ export default function blog() {
         },
         {
             title: "Mapping India’s Infrastructure Future with Geospatial Intelligence",
-            href: "/blogs/Mapping-India’s-Infrastructure-Future-with-GIS",
+            href: "/blogs/Mapping-India-s-Infrastructure-Future-with-GIS",
             imgSrc: "/img/news/mapex_news-3.jpg",
             category: "Achievement",
             excerpt: "Today, India stands at the brink of an infrastructure revolution. Over the last decade, the nation has made significant strides"
@@ -155,7 +155,7 @@ export default function blog() {
                             </Link>
                         </article>
                         <article className="blogs_p_card">
-                            <Link href='/blogs/Mapping-India’s-Infrastructure-Future-with-GIS'>
+                            <Link href='/blogs/Mapping-India-s-Infrastructure-Future-with-GIS'>
                                 <div className="blogs_p_card_image">
                                     <img src="/img/news/mapex_news-3.jpg" />
                                 </div>

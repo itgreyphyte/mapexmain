@@ -23,7 +23,7 @@ export default function Home() {
       image: "/img/news/mapex_news-3.jpg",
       title: "Mapping India’s Infrastructure Future with Geospatial Intelligence",
       desc: "Today, India stands at the brink of an infrastructure revolution. Over the last decade, the nation has made significant strides...",
-      link: "/blogs/Mapping-India’s-Infrastructure-Future-with-GIS"
+      link: "/blogs/Mapping-India-s-Infrastructure-Future-with-GIS"
     },
     {
       image: "/img/news/mapex_news-1.jpg",
@@ -35,7 +35,7 @@ export default function Home() {
       image: "/img/news/mapex_news-3.jpg",
       title: "Mapping India’s Infrastructure Future with Geospatial Intelligence",
       desc: "Today, India stands at the brink of an infrastructure revolution. Over the last decade, the nation has made significant strides...",
-      link: "/blogs/Mapping-India’s-Infrastructure-Future-with-GIS"
+      link: "/blogs/Mapping-India-s-Infrastructure-Future-with-GIS"
     },
   ];
 
